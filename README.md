@@ -4,7 +4,7 @@ English | [简体中文](README.zh-CN.md)
 
 A health check for the Markdown "brain" your AI agents read every day. One Python script finds the mechanical problems; one agent skill turns them into a prioritized fix list.
 
-Made as the companion to [ai-brain-vault](https://github.com/zhangnzhang/ai-brain-vault), but it works on any folder of Markdown notes (Obsidian or not) with a few config tweaks.
+Works on any folder of Markdown notes that an agent reads as memory — Obsidian or not. The defaults fit the common `AGENTS.md` / `memory.md` / `MAP.md` layout, and everything is configurable.
 
 ## Why
 
@@ -57,7 +57,7 @@ Agents without skill support can read `SKILL.md` as a plain instruction file.
 
 ## Configuration
 
-Defaults match the `ai-brain-vault` layout. For a different structure, put a `.brain-checkup.json` in the vault root (or pass `--config`). Start from [`config.example.json`](skills/brain-checkup/config.example.json):
+Defaults assume a common layout (`AGENTS.md`, `CLAUDE.md`, `memory.md`, `MAP.md`, `memory/`, `knowledge/`). For a different structure, put a `.brain-checkup.json` in the vault root (or pass `--config`). Start from [`config.example.json`](skills/brain-checkup/config.example.json):
 
 | Key | What it controls |
 |---|---|

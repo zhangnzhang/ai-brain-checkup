@@ -4,7 +4,7 @@
 
 给 AI 助手每天要读的 Markdown "大脑"做体检。一个 Python 脚本负责找出机械性问题，一个 Skill 负责把问题整理成按优先级排好的修复清单。
 
-它是 [ai-brain-vault](https://github.com/zhangnzhang/ai-brain-vault) 的配套工具，但改几项配置就能用在任何 Markdown 笔记文件夹上，用不用 Obsidian 都行。
+任何被 AI 当作记忆来读的 Markdown 笔记文件夹都能用，用不用 Obsidian 都行。默认配置适配常见的 `AGENTS.md` / `memory.md` / `MAP.md` 结构，所有设置都可以改。
 
 ## 为什么需要它
 
@@ -57,7 +57,7 @@ Skill 会跑扫描、复核结果，然后给出执行摘要、按 `P0` / `P1` /
 
 ## 配置
 
-默认值按 `ai-brain-vault` 的结构设定。结构不同的话，在仓库根目录放一个 `.brain-checkup.json`（或用 `--config` 指定），可以从 [`config.example.json`](skills/brain-checkup/config.example.json) 改起：
+默认值按常见结构设定（`AGENTS.md`、`CLAUDE.md`、`memory.md`、`MAP.md`、`memory/`、`knowledge/`）。结构不同的话，在仓库根目录放一个 `.brain-checkup.json`（或用 `--config` 指定），可以从 [`config.example.json`](skills/brain-checkup/config.example.json) 改起：
 
 | 配置项 | 控制什么 |
 |---|---|
