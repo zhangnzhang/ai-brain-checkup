@@ -1,0 +1,19 @@
+{
+  "limits": {
+    "AGENTS.md": [100, null],
+    "CLAUDE.md": [40, null],
+    "memory.md": [80, 5120],
+    "MAP.md": [120, null],
+    "memory/projects.md": [30, null]
+  },
+  "large_file_lines": 400,
+  "skip_dirs": ["logs/", "inbox/_processed/", ".git/", ".obsidian/", ".trash/"],
+  "external_markers": ["http://", "https://", "~/", "../"],
+  "external_extensions": [".json", ".html", ".xlsx", ".csv", ".png", ".jpg", ".svg", ".pdf"],
+  "generic_names": ["_index.md", "SKILL.md", "CLAUDE.md", "AGENTS.md", "memory.md", "MAP.md", "README.md"],
+  "front_matter_dirs": ["knowledge/"],
+  "project_dirs": ["memory/projects/"],
+  "stale_days": 30,
+  "rule_files": ["AGENTS.md", "memory.md", "memory/rules.md", "memory/facts.md"],
+  "duplicate_min_chars": 25
+}
