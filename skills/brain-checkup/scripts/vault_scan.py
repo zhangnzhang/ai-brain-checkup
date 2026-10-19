@@ -20,7 +20,8 @@ import re
 import sys
 
 # ---------------------------------------------------------------------------
-# Defaults. They match the ai-brain-vault layout; override any of them with a
+# Defaults. They assume a common agent-memory layout (AGENTS.md, memory.md,
+# MAP.md, memory/, knowledge/); override any of them with a
 # JSON config file (see config.example.json) or `.brain-checkup.json` in the
 # vault root.
 # ---------------------------------------------------------------------------
