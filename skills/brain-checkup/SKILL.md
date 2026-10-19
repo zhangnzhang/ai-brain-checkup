@@ -5,7 +5,7 @@ description: Health check for a Markdown "AI brain" vault (memory + rules + know
 
 # Brain checkup
 
-Run a structural health check on a Markdown vault that AI agents use as long-term memory (for example one built from the `ai-brain-vault` template: `AGENTS.md`, `memory.md`, `MAP.md`, `memory/`, `knowledge/`).
+Run a structural health check on a Markdown vault that AI agents use as long-term memory (typically an entry file such as `AGENTS.md` or `CLAUDE.md`, a memory index like `memory.md`, a map like `MAP.md`, plus `memory/` and `knowledge/` folders).
 
 **Goal:** keep the fixed per-session token cost low and stop memory from rotting.
 
